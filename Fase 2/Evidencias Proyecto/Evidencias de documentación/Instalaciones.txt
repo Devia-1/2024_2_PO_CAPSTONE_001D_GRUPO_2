@@ -1,0 +1,31 @@
+1- Instalación de XAMPP:
+
+* Lo primero que necesitas hacer es instalar XAMPP en tu computadora. Este software te permitirá ejecutar servidores como Apache y MySQL de manera local.
+
+2-Configurar MySQL:
+Una vez instalado XAMPP, asegúrate de que el servicio de MySQL esté funcionando. Esto es necesario para gestionar la base de datos que usará tu página.
+Si prefieres usar MySQL de manera local en vez de XAMPP, deberás ajustar la ruta de acceso a la base de datos en el archivo de configuración. (Arreglar direccion).
+
+3- Crear la base de datos:
+* Antes de ejecutar el servidor, debes crear la base de datos. Esta base de datos está definida en los archivos de tu proyecto.
+Busca el archivo llamado (Arreglar direccion), que contiene la estructura de la base de datos.
+
+4- Verificar configuración de la base de datos:
+Después de instalar todo, verifica que tu base de datos esté correctamente configurada. Asegúrate de que la conexión no requiera cambios de credenciales o contraseñas para los usuarios de la base de datos.
+Revisa si el archivo de configuración necesita alguna modificación antes de iniciar el servidor.
+
+5-Iniciar el servidor:
+* Si todo está bien, abre XAMPP y pon en marcha el servidor. Para ello, asegúrate de que Apache y MySQL estén activados desde el panel de control de XAMPP.
+Luego, mueve los archivos de tu proyecto al directorio htdocs de XAMPP. Este directorio se encuentra dentro de la carpeta donde instalaste XAMPP. Así podrás acceder a tu proyecto desde localhost en tu navegador.
+
+6- Probar la página web:
+Abre tu navegador y ve a localhost para probar si la página se carga correctamente.
+
+7- Verificar roles de usuario:
+* La página debe tener tres tipos de usuarios: Administrador, Meseros y Cocinero. Cada uno tiene funcionalidades distintas:
+Administrador: Gestiona la creación de cuentas de usuario y configuración del sistema.
+Meseros: Pueden ver el menú interactivo y gestionar las órdenes de los clientes.
+Cocinero: Ve una lista de las órdenes y puede marcar las que ya están listas.
+Realizar ajustes según sea necesario:
+
+Si los roles no funcionan como se espera, o si encuentras algún error, revisa la configuración de la base de datos o la conexión a los servicios de XAMPP para hacer los ajustes necesarios.
